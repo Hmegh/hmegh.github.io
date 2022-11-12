@@ -1,5 +1,5 @@
 ---
-title: Why is 906,316,571 an interesting number? 
+title: Polya's conjecture on a budget. 
 date: 2022-10-24
 math: true
 type: book
