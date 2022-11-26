@@ -14,9 +14,9 @@ main:
     url: '#teaching'
     weight: 20
 
-main_right:
-  - name: Blog
-    url: 'post'
+# main_right:
+#   - name: Blog
+#     url: 'post'
 
   # - name: Posts
   #   url: 'post'
