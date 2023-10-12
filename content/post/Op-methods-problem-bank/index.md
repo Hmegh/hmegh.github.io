@@ -1,7 +1,7 @@
 ---
 title: Op methods problem bank
 date: '2022-10-27T00:00:00Z'
-draft: false
+draft: true
 ---
 
 
@@ -1013,3 +1013,4 @@ $$sY(s)=e^{-a s}$$
 Apply the second translation theorem to get
 
 $$y(t)=\mathscr{U}(t-a).$$
+{{< /spoiler >}}
