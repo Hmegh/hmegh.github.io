@@ -20,7 +20,7 @@ publishDate: "2022-09-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Journal of Computational Physics"
+publication: "Journal of Computational Physics, Volume 472"
 publication_short: ""
 
 abstract: We present an immersed discontinuous Galerkin (IDG) method for interface problems simulating wave propagation in acoustic-elastic media. The method uses an interface independent mesh that allows elements to be cut by the material interface and thus leading to elements consisting of the union of an acoustic medium and an elastic medium. In this method, two different wave propagation models are treated in each interface element where piecewise polynomials constructed according to interface jump conditions are to be used. The proposed discontinuous Galerkin method is stable. We present several computational examples and results to illustrate the stability, efficacy and accuracy of the method.
