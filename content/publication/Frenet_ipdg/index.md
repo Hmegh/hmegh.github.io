@@ -4,14 +4,15 @@ authors:
 - Slimane Adjerid
 - Tao Lin
 - admin
-date: "2023-12-15T00:00:00Z"
+date: "2024-01-01T00:00:00Z"
 
 publication_types: ["2"]
 
 
-publication: "Computer Methods in Applied Mechanics and Engineering (Accepted)"
+publication: "Computer Methods in Applied Mechanics and Engineering, Volume 420"
 
-url_pdf: ''
+doi: 'https://doi.org/10.1016/j.cma.2023.116703'
+url_pdf: 'https://arxiv.org/pdf/2312.15342.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
