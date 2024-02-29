@@ -11,7 +11,7 @@ authors:
 # doi: "https://doi.org/10.1016/j.jcp.2022.111651"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2023-09-01T00:00:00Z"
+publishDate: "2024-02-29T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -20,7 +20,7 @@ publishDate: "2023-09-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Submitted"
+publication: "BIT Numerical Mathematics"
 publication_short: ""
 
 abstract: It has been noted that the traditional scaling argument cannot be directly applied to the error analysis of immersed finite elements (IFE) because, in general, the spaces on the reference element associated with the IFE spaces on different interface elements via the standard affine mapping are not the same. By analyzing a mapping from the involved Sobolev space to the IFE space, this article is able to extend the scaling argument framework to the error estimation for the approximation capability of a class of IFE spaces in one spatial dimension. As demonstrations of the versatility of this unified error analysis framework, the manuscript applies the proposed scaling argument to obtain optimal IFE error estimates for a typical first-order linear hyperbolic interface problem, a second-order elliptic interface problem, and the fourth-order Euler-Bernoulli beam interface problem, respectively. 
@@ -35,7 +35,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://arxiv.org/pdf/2306.10018.pdf
+url_pdf: 'https://arxiv.org/pdf/2306.10018.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -43,6 +43,7 @@ url_project: ''
 url_slides: ''
 url_source: ''
 url_video: ''
+doi: 'https://doi.org/10.1007/s10543-024-01014-z'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

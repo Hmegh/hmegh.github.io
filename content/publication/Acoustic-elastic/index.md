@@ -8,7 +8,7 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 date: "2022-09-01T00:00:00Z"
-doi: "https://doi.org/10.1016/j.jcp.2022.111651"
+doi: "10.1016/j.jcp.2022.111651"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2022-09-01T00:00:00Z"

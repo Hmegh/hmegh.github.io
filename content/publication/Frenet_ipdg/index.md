@@ -11,7 +11,7 @@ publication_types: ["2"]
 
 publication: "Computer Methods in Applied Mechanics and Engineering, Volume 420"
 
-doi: 'https://doi.org/10.1016/j.cma.2023.116703'
+doi: '10.1016/j.cma.2023.116703'
 url_pdf: 'https://arxiv.org/pdf/2312.15342.pdf'
 url_code: ''
 url_dataset: ''
