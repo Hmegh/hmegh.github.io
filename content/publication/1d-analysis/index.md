@@ -43,7 +43,7 @@ url_project: ''
 url_slides: ''
 url_source: ''
 url_video: ''
-doi: 'https://doi.org/10.1007/s10543-024-01014-z'
+doi: '10.1007/s10543-024-01014-z'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
