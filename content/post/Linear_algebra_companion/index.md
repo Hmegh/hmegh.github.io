@@ -5,7 +5,12 @@ date:
 ---
 {{< toc >}}
 
-<!-- $\let\x{\mathbf{\x}}$ -->
+<!-- \( \def\x{{\mathbf{\x} }} \) -->
+
+$
+   \def\x{{\mathbf{x}}}
+   \def\bold#1{{\bf #1}}
+$
 
 :warning: This is work in progress. 
 
@@ -45,11 +50,11 @@ $$\det(AB)=\det(A)\det(B)\ne 0$$
 Recall that the product of two non-zero numbers is non-zero. 
 {{< /spoiler >}}
 
-TF: The system $A\mathbf{x}=\lambda \mathbf{x}$ has a solution if and only if $\lambda$ is an eigenvalue.
+TF: The system $A\x=\lambda \x$ has a solution if and only if $\lambda$ is an eigenvalue.
 {{< spoiler text="Answer" >}}
 False. This system always has a solution (the trivial solution). A correct version of this statement is
 
-The system $A\mathbf{x}=\lambda \mathbf{x}$ has a **nontrivial** solution if and only if $\lambda$ is an eigenvalue.
+The system $A\x=\lambda \x$ has a **nontrivial** solution if and only if $\lambda$ is an eigenvalue.
 {{< /spoiler >}}
 
 
