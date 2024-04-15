@@ -1,7 +1,12 @@
 ---
 title: Linear Algebra Companion
 math: true
-date: 
+date:
+
+# design:
+#    spacing:
+#       padding: [0, 0, 0, 0]
+#       margin: [0, 0, 0, 0]
 ---
 {{< toc >}}
 
@@ -9,20 +14,106 @@ date:
 
 $
    \def\x{{\mathbf{x}}}
+   \def\col{{\operatorname{col}}}
+   \def\rank{{\operatorname{rank}}}
+   \def\row{{\operatorname{row}}}
+   \def\null{{\operatorname{null}}}
+   \def\R{{\mathbb{R}}}
+   \def\zero{{\mathbf{0}}}
+    \def\B{{\mathcal{B}}}
+   \def\b{{\mathbf{b}}}
    \def\bold#1{{\bf #1}}
 $
 
-:warning: This is work in progress. 
+:warning: This is work in progress. Also, this is not a replacement for the notes and the textbook.
 
 
-## Definitions: 
+# :ledger: Definitions: 
+
+**Column space:**  The column space of an $m\times n$ matrix $A$, denoted $\col(A)$, is the span of the columns of $A$.
+
+{{% callout note %}}
+$\col(A)$ is a subspace of $\mathbb{R}^m$, where $m$ is the number of rows of $A$, because every column has $m$ components.
+
+{{% /callout %}}
+
+---
+**Row space:**  The row space of an $m\times n$ matrix $A$, denoted $\row(A)$, is the span of the rows of $A$.
+
+{{% callout note %}}
+$\row(A)$ is a subspace of $\mathbb{R}^n$, where $n$ is the number of columns of $A$. 
+{{% /callout %}}
 
 
-## Theorems:
+
+---
+
+**Null space:**  The null space of a $m\times n$ matrix $A$, denoted $\null(A)$, is the set of solutions to $[A\mid \zero]$.
 
 
-## Conceptual questions: 
+{{% callout note %}}
+$\null(A)$ is a subspace of $\mathbb{R}^n$, since it contains all $\x \in \R^n$ such that $A\x=\zero$.  
+{{% /callout %}}
 
+
+---
+
+**Dimension:** Let $V$ be a subspace of $\R^n$ and let $\B$ be a basis for $V$. The dimension of $V$ is the number of vectors in $\B$. 
+{{% callout note %}}
+The dimension does not depend on the choice of the basis. 
+{{% /callout %}}
+
+---
+
+**Rank:** Let $A$ be an $m\times n$ matrix. $\rank(A)$ is the dimension of $\col(A)$.
+
+---
+
+**Nullity:** Let $A$ be an $m\times n$ matrix. $\text{nullity}(A)$ is the dimension of $\null(A)$.
+
+{{% callout note %}}
+The nullity of $A$ is the number of free variables in the system $[A\mid \zero]$. 
+{{% /callout %}}
+
+---
+**Invertible matrix:** An $n\times n$ matrix is said to be invertible if there is a matrix $B$ such that $AB=BA=I_n$. 
+
+{{% callout note %}}
+Only square matrices can be invertible. 
+{{% /callout %}}
+
+
+--- 
+
+
+# :pencil: Theorems:
+---
+**The rank nullity theorem:** Let $A$ be an $m\times n$ matrix. Then, $\rank(A)+\text{nullity}(A)=n$. 
+
+---
+**The invertible matrix theorem:** 
+Let $A$ be an $n\times n$ matrix, then the following statements are equivalent: 
+
+1) $A$ is invertible. 
+2) Every row of $A$ has a pivot. 
+3) Every column of $A$ is a pivot column.
+4) $\rank(A)=n$.
+5) $\text{nullity}(A)=0$. 
+6) $\col(A)=\mathbf{R}^n$.
+7) $\row(A)=\R^n$.
+8) $\det(A)\ne 0$.
+9) Given any $\b\in \mathbb{R}^n$, the system $A\x=\b$ has a unique solution. 
+10) The only solution to $A\x=\zero$ is the trivial solution. 
+11) $\det(A)\ne 0$. 
+12) The transformation $T_A:\R^n\to \R^n$ is $1-1$. 
+13) The transformation $T_A:\R^n\to \R^n$ is onto. 
+
+
+
+---
+
+## ❓ Conceptual questions: 
+---
 
 
 TF: If $A$ is invertible, then its inverse is unique? 
